@@ -3,15 +3,15 @@ import pathlib
 import zipfile
 import os
 
-res_root_dir = "aaa"       #圧縮するリソースフォルダ名
-beh_root_dir = "bbb"       #圧縮するビヘイビアフォルダ名
+res_root_dir = ""       #圧縮するリソースフォルダ名
+beh_root_dir = ""       #圧縮するビヘイビアフォルダ名
 
 
 # この二つは異なる名前にしてください
-pack_res_name = "res"     #リソースを圧縮した名前  〇〇.mcpackの〇〇
-pack_beh_name = "beh"     #ビヘイビアを圧縮した名前  〇〇.mcpackの〇〇
+pack_res_name = ""     #リソースを圧縮した名前  〇〇.mcpackの〇〇
+pack_beh_name = ""     #ビヘイビアを圧縮した名前  〇〇.mcpackの〇〇
 
-add_name     = "sword"     #〇〇.mcaddonの〇〇部分
+add_name     = ""     #〇〇.mcaddonの〇〇部分
 
 #拡張子変える関数
 def change_file(file_name, to_suf):
